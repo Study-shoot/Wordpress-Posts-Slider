@@ -1,0 +1,25 @@
+.side-couraosal{
+     height: 320px;
+}
+ .post-couraosal{
+     height: 320px;
+     filter: saturate(0.6);
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     filter: contrast(1.1) saturate(1.9) sepia(0.7) grayscale(0.3);
+}
+ .post-couraosal p{
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     width: 100%;
+     text-align: center;
+     transform: translate(-50%, -50%);
+     padding: 0;
+     text-decoration: none;
+     color: white;
+     font-size: 17px;
+     background-color: black;
+}
