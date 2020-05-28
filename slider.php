@@ -13,8 +13,7 @@
                         <?php if (has_post_thumbnail( $post->ID ) ): ?>
                         <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), ' ' );  ?>   
                         <figure class="post-couraosal " style="background-image: url('<?php echo $url ?>');  "> 
-                        <?php   get_template_part( '/theme/studyshoot-sections/badget','cat' );?>                    
-                        <a href="<?php the_permalink(); ?>"> <p> <?php the_title(); ?></p>
+                         <a href="<?php the_permalink(); ?>"> <p> <?php the_title(); ?></p>
                         <?php endif; ?>   </figure> 
                         </a>  
                       </div>                  
